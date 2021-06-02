@@ -1,0 +1,17 @@
+[package]
+name = "github-issue-url"
+version = "0.1.0"
+authors = ["Esteban Borai <estebanborai@gmail.com>"]
+edition = "2018"
+description = "GitHub prefilled issue URL builder"
+repository = "https://github.com/EstebanBorai/github-issue-url"
+categories = ["web-programming"]
+keywords = ["github", "url", "issue", "util", "builder"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1"
+url = "2"
